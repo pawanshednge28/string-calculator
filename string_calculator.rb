@@ -27,6 +27,8 @@ def add(numbers)
   puts "Sum of numbers: #{result}" # Log the sum
   result
 end
+
+
 puts "=============================="
 puts add("1,2,5")       # Output: 6
 puts "=============================="
