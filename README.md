@@ -1,3 +1,14 @@
+Project Structure
+
+string-calculator/
+├── string_calculator.rb         # Main calculator implementation
+├── spec/
+│   ├── string_calculator_spec.rb # RSpec tests
+│   └── spec_helper.rb           # RSpec configuration
+└── README.md                    # Project documentation
+
+
+
 # String Calculator
 
 A simple **String Calculator** built using Ruby, developed following **Test-Driven Development (TDD)** principles.
@@ -16,3 +27,19 @@ A simple **String Calculator** built using Ruby, developed following **Test-Driv
 
 ---
 
+## Project Clone
+git clone https://github.com/pawanshednge28/string-calculator.git
+
+cd string-calculator
+
+
+
+## Run the Ruby script directly:
+
+ruby string_calculator.rb
+
+
+## Running Tests
+## This project uses RSpec for testing run the test suite:
+
+rspec spec/string_calculator_spec.rb
